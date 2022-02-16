@@ -1,0 +1,42 @@
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 1rem;
+}
+input{
+    width: 80%;
+    margin: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem;
+}
+#check{
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background-color: rgb(21, 158, 3);
+    color: #fff;
+    border-radius: 4px;
+}
+#check:hover{
+    background-color: rgb(17, 131, 2);
+    transition: 0.4s ease;
+}
